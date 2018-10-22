@@ -1,0 +1,8 @@
+java_test(
+    name = "hello-test",
+    size = "small",
+    test_class = "AllTests",
+    srcs = [
+        "src/AllTests.java",
+    ],
+)
